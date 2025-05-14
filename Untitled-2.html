@@ -2,29 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat Now</title>
   <style>
     body {
-      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffc0cb; /* 纯粉色背景 */
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background: #fce4ec;
-      flex-direction: column;
+      font-family: Arial, sans-serif;
+      color: #fff;
       text-align: center;
-      color: #c53a84;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0.5rem;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 0.5rem;
+      color: #fff;
     }
   </style>
 </head>
 <body>
-  <h2>No need to download, start chatting immediately</h2>
-  <p>Please wait a moment.</p>
+  <h1>No need to download</h1>
+  <h1>Start chatting immediately<h1>
+  <p>Please wait a moment...</p>
 
   <script>
     setTimeout(() => {
-      window.location.href = "https://wa.me/85264459622"; // WhatsApp链接
+      window.location.href = "https://wa.me/85264459622";
     }, 5000); // 5秒后跳转
   </script>
 </body>
